@@ -128,7 +128,7 @@ const PaymentTransferForm = ({accounts}: PaymentTransferFormProps) => {
                     Enter the Bank Account Details of the Recipient
                 </p>
             </div>
-            <FormField control={form.control} name='name' render={({field})=>(
+            <FormField control={form.control} name='email' render={({field})=>(
                 <FormItem className='border-t border-gray-200'>
                     <div className='payment-transfer_form-item py-5'>
                         <FormLabel className='text-14 w-full max-w-[280px] font-medium text-gray-700'>
@@ -143,7 +143,7 @@ const PaymentTransferForm = ({accounts}: PaymentTransferFormProps) => {
                     </div>
                 </FormItem>
             )}/>
-            <FormField control={form.control} name='name' render={({field})=>(
+            <FormField control={form.control} name='shareableId' render={({field})=>(
                 <FormItem className='border-t border-gray-200'>
                     <div className='payment-transfer_form-item pb-5 pt-6'>
                         <FormLabel className='text-14 w-full max-w-[280px] font-medium text-gray-700'>
@@ -158,7 +158,7 @@ const PaymentTransferForm = ({accounts}: PaymentTransferFormProps) => {
                     </div>
                 </FormItem>
             )}/>
-            <FormField control={form.control} name='name' render={({field})=>(
+            <FormField control={form.control} name='amount' render={({field})=>(
                 <FormItem className='border-y border-gray-200'>
                     <div className='payment-transfer_form-item py-5'>
                         <FormLabel className='text-14 w-full max-w-[280px] font-medium text-gray-700'>
